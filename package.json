@@ -1,0 +1,21 @@
+{
+  "name": "news-feeds",
+  "version": "1.0.0",
+  "description": "News feeds",
+  "main": "index.html",
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "author": "Luis Paniagua",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.6",
+    "angular-animate": "^1.5.6",
+    "angular-aria": "^1.5.6",
+    "angular-material": "^1.1.0-rc.5",
+    "angular-messages": "^1.5.6"
+  },
+  "devDependencies": {
+    "lite-server": "^2.2.0"
+  }
+}

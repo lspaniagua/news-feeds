@@ -1,0 +1,68 @@
+body, .padding-feeds {
+  background-color: #bfbfbf;
+}
+
+.padding {
+  padding: 0 5%;
+}
+
+.padding-toolbar {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.md-toolbar-title {
+  padding-left: 2%;
+}
+
+.padding-feeds {
+  padding-top: 20px;
+  overflow: hidden;
+}
+
+.md-toolbar-title {
+  transition: all linear 0.1s;
+  position: relative;
+  top: 0;
+}
+
+.even {
+  background-color: #bfff00;
+}
+
+.odd {
+  background-color: #33ccff;
+}
+
+.md-toolbar-title.ng-hide {
+  top:-50px;
+}
+
+.md-card-image {
+  width: 200px;
+  height: 200px;
+}
+
+.card-news {
+  transition: all linear 0.1s;
+  height: 200px;
+}
+
+.ng-hide {
+  height: 0;
+}
+
+.card-item {
+  animation: card-item 0.3s;
+}
+
+@keyframes card-item {
+    from { width: 10%; }
+    to { width: 100%; }
+}
+
+md-list-item p {
+  overflow:hidden;
+  height:50px;
+  line-height:50px;
+}
